@@ -56,14 +56,14 @@ To get a local copy up and running follow these simple example steps.
 1. Once downloaded hit build and clean
 2. Run Compile
 3. Use number pads to interact with menu. 
-   ```
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Implemented a terminal application that can read, write, update, and delete flooring orders for a carpentry company. Used MVC architecture that structured the code to handle products, taxes, and orders appropriately as POS System.
+Use case was just to try and build out a full working CRUD app during my experience at the Software Guild. 
+
 
 
 <!-- ROADMAP -->
@@ -79,6 +79,7 @@ List of features
 
 <!-- CONTRIBUTING -->
 ## Contributing
+* Myself at the moment :p 
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
