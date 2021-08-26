@@ -7,7 +7,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<h2> Demo Gif </h2>
+
 ![app](https://user-images.githubusercontent.com/58099429/130895904-5fe1af5e-a57a-4ac0-9cf5-b8260f4cebad.gif)
 <br />
 
