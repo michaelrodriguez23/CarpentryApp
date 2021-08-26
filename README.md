@@ -12,7 +12,8 @@
 <br />
   ## UML CLASS CHART
  <br /> 
-![uml](https://user-images.githubusercontent.com/58099429/130895918-0dba3cef-4d3c-4316-adb6-9c12c6683686.gif)
+![uml](https://user-images.githubusercontent.com/58099429/130896355-a710589e-86f9-4b50-805d-0e6c937e3ce1.gif)
+
 <br /> 
 
 <br />
