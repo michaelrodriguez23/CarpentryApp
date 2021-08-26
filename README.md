@@ -1,7 +1,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="left">
- Implemented a terminal application that can read, write, update, and delete flooring orders for a carpentry company. Used MVC architecture that structured the code to handle products, taxes, and orders appropriately as POS System.
+ Implemented a terminal application that can read, write, update, and delete flooring orders for a carpentry company. 
+  Used MVC architecture that structured the code to handle products, taxes, and orders appropriately as POS System. 
+  Files are saved both locally, and can be persisted to local path, as well as read and unmarshall delimitters. 
+  The program can be toggled from production mode to training mode for new trainees on the job. It can be toggled by accessing the 
+ application.context file, and switching the dependency. 
+ 
   </a>
 
 <!-- ABOUT THE PROJECT -->
@@ -18,7 +23,8 @@
 <br /> 
 
 <br />
-  # PDF Here
+  ## PDF Here
+
 [Class Diagram .pdf](https://github.com/michaelrodriguez23/CarpentryApp/files/7051330/Class.Diagram.pdf)
 
 
