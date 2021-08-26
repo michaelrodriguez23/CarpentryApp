@@ -4,9 +4,10 @@
   <a href="https://github.com/othneildrew/Best-README-Template">
   </a>
   <div align="center" >
-  [Class Diagram .pdf](https://github.com/michaelrodriguez23/CarpentryApp/files/7051275/Class.Diagram.pdf)
- ![app](https://user-images.githubusercontent.com/58099429/130895735-5ed0e255-f52e-454a-b658-e4831dfca3b1.gif)
- ![uml](https://user-images.githubusercontent.com/58099429/130895719-ffdbf8b8-8d00-44f3-9e9d-744b4fe4ed6b.gif)
+![app](https://user-images.githubusercontent.com/58099429/130895904-5fe1af5e-a57a-4ac0-9cf5-b8260f4cebad.gif)
+[Class Diagram .pdf](https://github.com/michaelrodriguez23/CarpentryApp/files/7051330/Class.Diagram.pdf)
+![uml](https://user-images.githubusercontent.com/58099429/130895918-0dba3cef-4d3c-4316-adb6-9c12c6683686.gif)
+
     </div>
 
 
