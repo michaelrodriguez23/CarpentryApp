@@ -8,9 +8,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+[Class Diagram .pdf](https://github.com/michaelrodriguez23/CarpentryApp/files/7051275/Class.Diagram.pdf)
 
-[![DEMO GIF][product-screenshot]](/<img width="366" alt="Screen Shot 2021-08-23 at 11 57 15 AM" src="https://user-images.githubusercontent.com/58099429/130894916-7ec743e0-dd96-4e0f-a437-57c3f8457527.png">
-Flooring/app.gif)
 
 
 
