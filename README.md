@@ -1,8 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
-  Implemented a terminal application that can read, write, update, and delete flooring orders for a carpentry company. Used MVC architecture that structured the code to handle products, taxes, and orders appropriately as POS System.
-  <a href="https://github.com/othneildrew/Best-README-Template">
+<p align="left">
+ Implemented a terminal application that can read, write, update, and delete flooring orders for a carpentry company. Used MVC architecture that structured the code to handle products, taxes, and orders appropriately as POS System.
   </a>
 
 <!-- ABOUT THE PROJECT -->
