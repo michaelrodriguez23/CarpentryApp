@@ -9,7 +9,9 @@
 
 
 ![app](https://user-images.githubusercontent.com/58099429/130895904-5fe1af5e-a57a-4ac0-9cf5-b8260f4cebad.gif)
+<br />
 [Class Diagram .pdf](https://github.com/michaelrodriguez23/CarpentryApp/files/7051330/Class.Diagram.pdf)
+<br />
 ![uml](https://user-images.githubusercontent.com/58099429/130895918-0dba3cef-4d3c-4316-adb6-9c12c6683686.gif)
 
 
