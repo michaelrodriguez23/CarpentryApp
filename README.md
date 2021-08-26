@@ -1,165 +1,17 @@
 
-
-<!-- Carpentry Flooring Point of Sale App -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="Flooring/app.gif" alt="Gif">
   </a>
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](Flooring/app.gif)
+[![DEMO GIF][product-screenshot]](/<img width="366" alt="Screen Shot 2021-08-23 at 11 57 15 AM" src="https://user-images.githubusercontent.com/58099429/130894916-7ec743e0-dd96-4e0f-a437-57c3f8457527.png">
+Flooring/app.gif)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-UML 
-Class Diagram 
-* Use Crud to start building from 
-* Take note to toggle between training & Prod mode will be done via the configuration file 
-* The configuration file will write to Orders_DDMMYYY.txt
-
-The UI should start with a menu to prompt the user for what they would like to do: 
-
- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-    *  <<Flooring Program>>
-    * 1. Display Orders
-    * 2. Add an Order
-    * 3. Edit an Order
-    * 4. Remove an Order
-    * 5. Save Current Work
-    * 6. Quit
-    *
-    * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-
-
-Example : 
-
-> package name
-    +class name : interface/inheritence 
-        + public name : return type
-        - private name : return type
-
-***************************************************************************************************
-​* Ask Does Full Crud Apply to all of the DTO's? 
-
-
-> com.mr.FlooringOrder.dtos
-
-
-	 + Taxes
- 		- State : String
- 		- TaxRate : BigDecimal
-
-	 + Products
- 		- ProductType : String
- 		- CostPerSquareFoot : Double
- 		- LaborCostPerSquareFoot : Double 
-
-	 + Orders 
-		- Order # : int
-		- Customer Name : String
-		- State : String
-		- Data/ Taxes : BigDecimal 
-		- Product Type : String
-		- Area : Double
-		- Cost per Sq Foot : BigDecimal 
-		- Labor Cost Per Sq Foot : BigDecimal
-		- Material Cost : BigDecimal 
-		- Labor Cost : BigDecimal 
-		- Tax : BigDecimal
-		- Total : BigDecimal  
-
->com.mr.FlooringOrder.daos
-
-	+ OrderDao
-		+ Create(Order order) : Order 
-		+ ReadAll() : List <Order> 
-		+ Update(Int order#) : Order 
-		+ Delete(Int order#) : Order
-		+ Save (Int order #) : Order 
-
-	 + OrderDaoFileProdImpl : OrderDao
-	 	- orders : Map< <Order>  
-	 	- FILENAME : String
-	 	+ OrderDaoFileImpl(String fileName)
-	 	- save() : void throws PersistanceException
-	 	- load() : void throws PersistanceException
-
-	  + OrderDaoFileTrainingImpl : OrderDao
-	 	- orders : Map <Order>  
-	 	- FILENAME : String
-	 	+ OrderDaoFileImpl(String fileName)
-	 	- load() : void throws PersistanceException
-
-	 + StateTaxDao 
-	 	+ ReadAll() : HashMap <StateTax> StateTax
-	 	+ Read() : StateTax
-
-	 + ProductDao 
-	    + ReadAll() : List <ProductDao>
-
-
->com.mr.FlooringOrders.Service
- 
-	+FlooringOrderService 
-	Exception e : Exception 
-	DuplicateOrderException : Exception 
-	InvalidOrderException : Exception 
-	OrderNotFoundException : Exception 
-	PersistanceException : Exception 
-
-		+ DisplayAllOrders : Map <Order> throws Exception e
-		+ AddOrder(Order order): Order  throws DuplicateOrderException , InvalidOrderException
-		+ EditOrder(Order order) : Order  throws InvalidOrderException
-		+ RemoveOrder(Order order) : Order throws InvalidOrderException, OrderNotFoundException
-		+ SaveOrder(Order order) : Order  throws PersistanceException
-
-		+ getCustomerName(String) : Order // ??? Do we make 4 seperate methods for the view to be checked in the service Layer  
-
-
-	+ FlooringOrderServiceImpl : FlooringOrderService
-		-  FlooringOrderDao : FlooringOrderDao 
-		-  StateTaxDao : StateTaxDao
-		-  ProductDao : ProductDao
-		+ FlooringOrderServiceImpl(OrderDao orderDao, ProductDao productDao)
-
-> com.mr.FlooringOrders.ui
-  +FlooringOrders.view 
-	+ getMenuSelection() : int 
-	+ addOrderNumber() : int 
-	+ getCustomersName() : String
-	+ getState() : String
-	+ getArea() : double
-	+ getProductType() : String
-	+ getStateTaxRate() : BigDecimal 
-	+ displayAllOrders(List<Order> orders) : void
-
-> com.mr.FlooringOrders.controller
-    + FlooringOrdersController
-        - service : FlooringOrdersService
-        - view : FlooringOrdersView
-        + FlooringOrdersController(FlooringOrdersService service, FlooringOrdersView view)
-        + run() : void
-        - addOrder() : void
-        - editOrder() : void
-        - removeOrder() : void
-        - saveUser() : void
-        - viewAllOrders() : void
-        
 
 
 
